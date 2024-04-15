@@ -15,6 +15,8 @@ This sample is intended to be run on Google Cloud. You will need a Google Cloud 
 5) Repeast step 4) for 'asia-southeast1', and 'me-central1'
 
 ## Deployment
+1. Replace "\[PROJECT_ID]" literal with your project ID (use your project id instead of 'my-proj'):
+    - `sed -i 's/\[PROJECT_ID\]/my-proj/g' *`
 1. Replace pom.xml with the relevant POM for your test: pom-asia-northeast1.xml, pom-asia-southeast1.xml, or pom-me-central1.xml.
     - e.g. `cp pom-asia-northeast1.xml pom.xml`
 2. Submit the Cloud Build Job for your chosen region.
