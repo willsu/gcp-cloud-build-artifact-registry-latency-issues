@@ -9,5 +9,5 @@ steps:
   - 'mvn install' 
 options:
   pool:
-    name: 'projects/csa-app-dev-0ad127af/locations/asia-southeast1/workerPools/hello-world-asia-southeast1-pool'
+    name: 'projects/[PROJECT_ID]/locations/asia-southeast1/workerPools/hello-world-asia-southeast1-pool'
 

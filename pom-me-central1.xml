@@ -37,18 +37,18 @@
   <distributionManagement>
     <snapshotRepository>
       <id>artifact-registry</id>
-      <url>artifactregistry://me-central1-maven.pkg.dev/csa-app-dev-0ad127af/mvn-me-central1</url>
+      <url>artifactregistry://me-central1-maven.pkg.dev/[PROJECT_ID]/mvn-me-central1</url>
     </snapshotRepository>
     <repository>
       <id>artifact-registry</id>
-      <url>artifactregistry://me-central1-maven.pkg.dev/csa-app-dev-0ad127af/mvn-me-central1</url>
+      <url>artifactregistry://me-central1-maven.pkg.dev/[PROJECT_ID]/mvn-me-central1</url>
     </repository>
   </distributionManagement>
 
   <repositories>
     <repository>
       <id>artifact-registry</id>
-      <url>artifactregistry://me-central1-maven.pkg.dev/csa-app-dev-0ad127af/mvn-me-central1</url>
+      <url>artifactregistry://me-central1-maven.pkg.dev/[PROJECT_ID]/mvn-me-central1</url>
       <releases>
         <enabled>true</enabled>
       </releases>
