@@ -20,9 +20,12 @@ This sample is intended to be run on Google Cloud. You will need a Google Cloud 
 2. Submit the Cloud Build Job for your chosen region.
     - e.g. `gcloud builds submit . --region=asia-northeast1 --config=cloudbuild-asia-ne1.yaml`
     - Note: ensure that the `config` and `region` are consistent with the region chosen to replate the `pom.xml`
+3. Open the corresponding Artifact Registry Remote Repository and validate that the packages have all been cached.
+4. Submit the Cloud Build Job again (to run with cached packages).
 
 ## Review the Results
-1. Running the same build on 3 different regions yields shows the following differences in time:
+1. View the results of the run with cached packages in their respective Cloud Build Regions:
+
 | asia-northeast1  | asia-southeast1 | me-central1 |
-| ------------- | ------------- |
-| ~50s  | ~35s  | ~230s
+| ------------- | ------------- | ------------- |
+| ~50s  | ~35s  | ~230s |
