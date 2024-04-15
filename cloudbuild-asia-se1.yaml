@@ -1,0 +1,13 @@
+steps:
+- id: 'build'
+  name: gcr.io/cloud-builders/mvn
+  entrypoint: bash
+  args:
+  - '-eo'
+  - 'pipefail'
+  - '-c'
+  - 'mvn install' 
+options:
+  pool:
+    name: 'projects/csa-app-dev-0ad127af/locations/asia-southeast1/workerPools/hello-world-asia-southeast1-pool'
+
