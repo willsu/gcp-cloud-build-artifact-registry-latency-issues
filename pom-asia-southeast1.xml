@@ -37,18 +37,18 @@
   <distributionManagement>
     <snapshotRepository>
       <id>artifact-registry</id>
-      <url>artifactregistry://asia-northeast1-maven.pkg.dev/[PROJECT_ID]/mvn-asia-se1</url>
+      <url>artifactregistry://asia-southeast1-maven.pkg.dev/[PROJECT_ID]/mvn-asia-se1</url>
     </snapshotRepository>
     <repository>
       <id>artifact-registry</id>
-      <url>artifactregistry://asia-northeast1-maven.pkg.dev/[PROJECT_ID]/mvn-asia-se1</url>
+      <url>artifactregistry://asia-southeast1-maven.pkg.dev/[PROJECT_ID]/mvn-asia-se1</url>
     </repository>
   </distributionManagement>
 
   <repositories>
     <repository>
       <id>artifact-registry</id>
-      <url>artifactregistry://asia-northeast1-maven.pkg.dev/[PROJECT_ID]/mvn-asia-se1</url>
+      <url>artifactregistry://asia-southeast1-maven.pkg.dev/[PROJECT_ID]/mvn-asia-se1</url>
       <releases>
         <enabled>true</enabled>
       </releases>
